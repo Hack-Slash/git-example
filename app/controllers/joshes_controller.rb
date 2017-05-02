@@ -1,0 +1,2 @@
+class JoshesController < ApplicationController
+end
