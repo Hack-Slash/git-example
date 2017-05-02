@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'foods' => 'foods#index'
+=======
+  get '/bananas' => 'bananas#index'
+>>>>>>> 89f90eb02a1429eb1528419b3945da0dde4f99c8
 
   get '/pages' => 'pages#index'
   get '/pages/:id' => 'pages#show'
