@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  get '/blumings' => 'blumings#index'
   get '/bananas' => 'bananas#index'
 
+ 
   get '/pages' => 'pages#index'
 
   get '/classiladies' => 'classiladies#index'
