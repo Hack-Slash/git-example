@@ -6,5 +6,11 @@ Rails.application.routes.draw do
   get '/kittens' => 'kittens#index'
   get '/pages/:id' => 'pages#show'
 
+  get '/classiladies' => 'classiladies#index'
+
+  get '/kittens' => 'kittens#index'
+
+  get '/pages/:id' => 'pages#show'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
