@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'cookies' => 'cookies#index'
+
   get '/pages' => 'pages#index'
   get '/pages/:id' => 'pages#show'
 
