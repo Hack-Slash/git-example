@@ -1,0 +1,2 @@
+module BlumingsHelper
+end

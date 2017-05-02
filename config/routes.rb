@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   get '/jon' => 'jon#index'
+  get '/blumings' => 'blumings#index'
   get '/bananas' => 'bananas#index'
 
+ 
   get '/pages' => 'pages#index'
   get '/kittens' => 'kittens#index'
   get '/pages/:id' => 'pages#show'
