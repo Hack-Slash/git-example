@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/bananas' => 'bananas#index'
+
   get '/pages' => 'pages#index'
   get '/pages/:id' => 'pages#show'
 
