@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/jon' => 'jon#index'
+
   get '/pages' => 'pages#index'
   get '/pages/:id' => 'pages#show'
 
